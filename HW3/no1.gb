@@ -1,0 +1,12 @@
+glBegin(GL_QUADS) 
+    glColor3f(1,0,0)
+    glVertex3f(1.8,-0.38,-5) 
+    glVertex3f(1.78,-0.4,-5)
+    glVertex3f(-1.5,2.68,-5)
+    glVertex3f(-1.48,2.7,-5)
+glEnd()
+
+glBegin(GL_LINES)
+    glVertex2f(10,1)
+    glVertex2f(2,10)
+glEnd()
